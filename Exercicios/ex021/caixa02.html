@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: steelblue;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0px;
+            }
+            
+            header {
+                background-color: azure;
+                padding: 10px;
+                margin: 10px;
+                box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+                border-radius: 5px;
+            }
+            
+            nav {
+                background-color: rgb(76, 117, 129);
+                padding: 3px;
+                box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+            
+            }
+            
+            
+            nav > a {
+                text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            background-color: aliceblue;
+            padding: 8px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.418);
+            border-radius: 5px;
+        }
+        
+        footer {
+            background-color: rgb(38, 44, 49);
+            color: aliceblue;
+            margin: 0px;
+            text-align: center;
+            padding: 5px;
+            
+        }
+        
+        article {
+            background-color: lightblue;
+            padding: 5px
+            
+        }
+
+        article > aside {
+            background-color: rgb(76, 117, 129);
+            color: aliceblue;
+            padding: 2px;
+        }
+
+        #assuntos {
+            padding: 3px;
+            text-align: center;
+            background-color: rgb(76, 117, 129);
+            color: aliceblue;
+            
+        }
+
+        footer > p {
+            margin: 0px
+        }
+
+    </style>
+    <title>Grouping Tags</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Política, esportes e tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora itaque temporibus ipsa aliquam quibusdam. Obcaecati nemo officiis, alias voluptas asperiores dolorem voluptatum? Molestias earum sit consectetur id, cum repudiandae voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, cupiditate suscipit. Pariatur doloremque, deleniti velit id quaerat culpa ullam eius ipsum modi voluptatem! Aut, ad! Ea tempore voluptates repellat libero!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Produzido por Rafael Timoteo</p>
+    </footer>
+</body>
+</html>

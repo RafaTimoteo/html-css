@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        thead, tfoot {
+             background-color: grey;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+           
+            text-align: center;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        .nome {
+            text-align: left;
+        }
+
+        .numero {
+            text-align: right;
+        }
+    </style>
+    <title>Tabelas grandes</title>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    
+    <!--
+        Anatomia para tabelas grandes
+        table
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+
+    <table>
+        <thead>
+           <tr>
+            <th>Estado</th>
+            <th>População</th>
+           </tr> 
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="nome">São Paulo</td>
+                <td class="numero">44 169 350</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Minas Gerais</td>
+                <td class="numero">20 777 672</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Rio de Janeiro</td>
+                <td class="numero">16 497 395</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Bahia</td>
+                <td class="numero">15 150 143</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Rio Grande do Sul</td>
+                <td class="numero">11 228 091</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Paraná</td>
+                <td class="numero">11 112 062</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Pernambuco</td>
+                <td class="numero">9 297 861</td>
+            </tr>
+
+            <tr>
+                <td class="nome">Ceará</td>
+                <td class="numero">8 867 448</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="numero"><strong>274,200,044</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

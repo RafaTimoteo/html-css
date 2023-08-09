@@ -11,11 +11,29 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
         }
 
         thead, tfoot {
              background-color: grey;
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
         }
 
         td, th {
@@ -57,10 +75,13 @@
     -->
 
     <table>
+        <caption>
+            População das Unidades federativas do Brasil
+        </caption>
         <thead>
            <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
            </tr> 
         </thead>
 
@@ -108,10 +129,23 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numero"><strong>274,200,044</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur excepturi minima voluptatibus voluptate architecto, non vitae labore, molestiae eveniet facere illo culpa nihil tenetur dolores aperiam quam, perspiciatis doloremque voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos voluptatum, maxime, eligendi deleniti itaque alias omnis architecto recusandae autem natus possimus fugiat accusamus commodi explicabo nesciunt esse dolores molestias quidem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quibusdam voluptatem nesciunt, sit non eveniet dignissimos necessitatibus aut dolores nisi, facere iure in voluptates esse amet provident ad quod a!</p>
+
 </body>
 </html>
